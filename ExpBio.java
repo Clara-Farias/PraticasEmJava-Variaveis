@@ -1,4 +1,4 @@
-/* Questão 49
+/*Questão 49
 Faça um programa para leia o horário (hora, minuto e segundo) de início e a duração, em
 segundos, de uma experiência biológica. O programa deve resultar com o novo horário (hora,
 minuto e segundo) do termino da mesma. */
@@ -12,8 +12,16 @@ public class ExpBio {
             System.out.println("Bem Vindo, Usuário!");
 
             // h = Hora m = Minutos s = Segundos d = Duração da Experiência.
-            int h = 15 , m = 30 , s = 10;
-            int d = 10800;
+            int h,m,s,d;
+            System.out.print("Digite a Hora de Início: ");
+            h = in.nextInt();
+            System.out.print("Digite os Minutos de Início: ");
+            m = in.nextInt();
+            System.out.print("Digite os Segundos de Início: ");
+            s = in.nextInt();
+            System.out.print("Digite a Duração da Experiência: ");
+            d = in.nextInt();
+            
             System.out.printf("\nA Hora de Duração da Expência em Segundos É: %d\n",d);
             System.out.printf("\nA Experiência se deu Início Em:\n%d Horas %d Minutos e %d Segundos",h,m,s);
 
