@@ -16,10 +16,9 @@ public static void main(String[] args){
         System.out.println("Digite um Terceiro Valor: ");
         int z = in.nextInt();
 
-
         int r = x + y + z;
 
         System.out.print("O Resultado de "+x+" + " +y+ " + " +z+ " É: " +r);
     }
-    }
+  }
 }
