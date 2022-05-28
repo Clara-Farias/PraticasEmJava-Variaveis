@@ -1,5 +1,5 @@
-# PraticaEmJava
-53 QUESTÕES / VARIÁVEIS E EXPRESSÕES
+# PraticaEmJava_1
+Lista de exercício 01 - Variáveis e expressões
 
 Exercícios Proposto da Disciplina de Lógica de Programação
 
